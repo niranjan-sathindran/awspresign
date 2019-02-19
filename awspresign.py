@@ -1,5 +1,6 @@
 import boto3
 
+# Modify values below to bucket name and object name
 bucket="<sample-bucket>"
 key="<object-name-from-bucket>"
 expiration=1000 * 60 * 60 * 72 #Modify 72 here to enter number of hours
