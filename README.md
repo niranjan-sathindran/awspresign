@@ -1,3 +1,3 @@
 # awspresign
 Ths repo holds a single file that outputs a presigned URL for a single object in an S3 bucket.
-Code assumes environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` is already set prior to running. Access Key set must have full rights over object for which presigned URL needs to be created.
+Code assumes credentials have been set using AWS credentials patterns as described in https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html
